@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Lendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="trocarfoto()">
+    
+    <header>
+        <h1 id="titulo">
+            <strong>Guia do Futebol</strong>
+        </h1>
+        <p id="head">Pesquise aqui o nome de uma das lendas que passaram pelo futebol mundial.</p>
+    </header>
+    
+
+    <section>
+         <img id="foto" src="desktop-wallpaper-soccer-soccer-legends.jpg" alt="ft">
+        <div id="pesquisar">
+            <input type="search" placeholder="Digite aqui..." name="pesq" id="pes"><input onclick="mudar()" type="button" value="Buscar">
+            
+        </div>
+       <div id="resp">
+        <strong>Carregando...</strong>
+       </div>
+        
+    </section>
+
+    <footer>
+        <p id="foot">&copy;Arthur Santiago</p>
+    </footer>
+    <script src="code.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+#pesquisar {
+    display: flex; /* Configura o contêiner como um flex container */
+    justify-content: center; /* Alinha os elementos filhos horizontalmente ao centro */
+}
+
+input[type="search"] {
+    /* Estilos para o campo de pesquisa */
+    border: 2px solid rgba(1, 9, 10, 0.755);
+    text-align: justify;
+    padding: 12px;
+    background-color: rgba(6, 124, 187, 0.33);
+    box-shadow: 2px 2px 8px rgba(0, 246, 86, 0.855);
+    color: #ffff;
+    font: normal 14pt arial;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    /* Estilos para o botão */
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    text-align: justify;
+    padding: 12px;
+    background-color: rgba(21, 105, 66, 0.837);
+    color: #ffff;
+    font: normal 14pt arial;
+    border-radius: 5px;
+    margin-left: 5px; /* Adiciona um espaçamento à esquerda para separar do campo de pesquisa */
+    box-shadow: 2px 2px 8px rgba(15, 120, 190, 0.844);
+}
+
+body{
+    background:url('Wall.jpg') ;
+    background-size: 100%;
+}
+h1{
+    color: #ffff;
+    text-align: center;
+    font: normal 40pt arial;
+    color: rgb(254, 255, 255);
+}
+#head {
+    color: #ffffff;
+    text-align: center;
+    font: normal 25pt arial;
+}
+#foot{
+    color: #ebedee;
+    text-align: center;
+}
+img {
+    float: inline-start;
+    border-radius: 40%;
+    
+    
+}
+#resp{
+    font: normal 20pt arial;
+    background-color: #ffffff1d;
+    text-align: center;
+    margin: auto ;
+    padding: 10px;
+    margin-right: 5px;
+    width: 500px;
+    margin-top: 20px;
+    color: black;
+    opacity: 0.9;
+    border-radius: 10px;
+}
