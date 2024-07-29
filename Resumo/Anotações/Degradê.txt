@@ -9,3 +9,5 @@ para direita basta colocar ritght e para esquerda left.
 - OBS:Ao você colocar em graus sendo 135deg que significa ser em 135° e para você tirar a lista do backgroond basta você colocar min-heigth:100vh.
 
 - OBS:Ao você colocar em "to top" ou "to bottom" basta definir um global para altura como 100% como ponto abre chaves e em seguida colocar heitght.
+
+- OBS: Para você colocar em graus você tem que colocar em seguida, de colocar as cores do gradiente, "background-attachment: fixed;" assim fazendo com que ele fique fixo.
