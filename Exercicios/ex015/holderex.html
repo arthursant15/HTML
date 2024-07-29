@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoverEx</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: white;
+        }
+        div >p{
+            display: none;
+        }
+        div:hover >p{
+            display: block;
+            background-color: aliceblue;
+            width: 200px;
+            border-radius: 5px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bolder exemplos</h1>
+    <p>Abaixo vai o exemplo</p>
+    <p>Não só podemos usar o bolder para mudar o estado do seu plano de fundo como usa-lo também para poder mudar a cor da fonte por exemplo:</p>
+    <div>
+        Passe o mouse aqui
+    </div>
+    <p>
+        E também pode usar para fazer aparecer ou desaparecer da tela por exemplo:
+    </p>
+    <div>
+        Passe o mouse aqui para mostrar o paragrafo
+        <p>Hello Shit</p>
+    </div>
+</body>
+</html>

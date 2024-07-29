@@ -1,0 +1,29 @@
+== Downloads
+
+- Para baixar os arquivos em que você deseja basta coloca-lo na mesma pasta sua em seu arquivo html e colocar exemplo: <a download="(nome do arquivo que voce queira deixar para download)" type="application/(o formato que o seu arquivo é)"> Clique aqui </a>.
+
+== Aqui vão alguns media types bem usados no nosso dia-a-dia:
+
+>application/zip
+
+>application/html
+
+>application/css
+
+>application/javascript
+
+>application/mp4
+
+>application/H264
+
+>application/JPEG
+
+>application/aac
+
+>application/mpeg
+
+>application/ttf
+
+>application/jpeg
+
+>application/png

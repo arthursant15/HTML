@@ -1,0 +1,30 @@
+-Negrito: para você usar essa tag basta colocar no vscode "strong" que em inglês significa forte ou expressivo. = <strong> " " </strong>
+
+-Italico: para você usar essa tag basta colocar no vscode "em" que  em inglês significa evidente. = <em> " " </em>
+
+-Marcador: Como se fosse um marca texto, para usar ele basta colocar o trecho em que você deseja coloca-lo usando "mark" = <mark> " " </mark> 
+
+-Deletar(Marcar no meio): para você usar essa tag basta você digitar a tag "del" que ela vai executa-lo = <del> " " </del>
+
+-Inserido: Ela serve para dar sentido de inserir/dar enfase e indicar que ele foi adicionado depois para voce usar essa tag basta voce digitar a tag "ins" que ela vai executa-lo = <ins> " " </ins>
+
+-Sobrescrito: Serve para inserir alguma potencia na equação menor/sobrepoto outro e para faze-lo basta digitar o "sup" = <sup></sup>
+
+-Subescrito: Serve para inserir algum elemento de quimica por exemplo como o H2O em que o 2 fica subescrito em H e para faze-lo basta digitar o "sub" = 
+<sub> " " </sub>
+
+-Codigo: Para ser mais facil de voce vizualizar o codigo escrito no documento HTML recomenda-se ultilizar a tag "code" pois ela fica todas do mesmo tamanho = <code> " " </code>
+
+-Identação na partee do codigo basta selecionar o codigo com a tag code inclusa e colocar a tag "pre" <pre> " " </pre>
+a tag "pre" serve como uma 'pré formatação'.
+
+-Citação: para colocar uma sitação basta digitar "q" = <q> " " </q>
+
+-Citações completas: Já no caso das citações completas podemos usar parametros que servem para ter uma referencia de onde tiramos a parte em que é sitada o codigo vai ficar assim: 
+			<blockquote cite="...">
+				" "
+			</blockquote>
+
+- Para Abreviações: Basta voce envelopar/selecionar a sua sigla com a tag "abbr" e em seguida adicionar um titulo que o mesmo sera mostrado assim que o usuario passar com o mouse na sigla = <abbr title= "..."> " " </abbr>
+
+-

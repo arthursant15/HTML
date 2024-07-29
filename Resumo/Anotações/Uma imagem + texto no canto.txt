@@ -1,0 +1,3 @@
+== Imagem + texto no canto
+
+-Para você conseguir fazer isso basta criar uma div entre as duas (a imagem e o paragrafo) e em seguida colocar um class na imagem e um span no texto , ai no css você coloca na div{ display:flex; } fazendo com que ele não fique estático na tela e em seguida coloque na imagem{ flex: 1;}, em seguida você coloca no span{ display:flex; }

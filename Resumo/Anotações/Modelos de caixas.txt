@@ -1,0 +1,13 @@
+==MODELOS DE CAIXAS
+
+- height: altura
+
+- width: largura
+
+- border: borda
+
+- padding: preenchemento, pode ser usada como um espaço entre a borda e o espaço pré-defnido do programa, criando assim um espaçamentoe em todas as direções.
+
+- margin: margem, seria como se fosse o padding só que ao invés dele dar um espaço interno, o margin da um espaço externo podendo ser entre caixas/box.
+
+- outline: contorno, seria como uma extra borda sendo como se fosse um contorno sobre a borda.

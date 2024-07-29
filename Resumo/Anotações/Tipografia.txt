@@ -1,0 +1,9 @@
+==TIPOGRAFIA
+
+- font-size: tem como colocar o tamanho de fonte, é mais indicado colocar ou px ou em, que um quer fazer disser o pixel e o outro a porcentagem da fonte padrão podendo aumentar em vezes.
+
+- font-family: a fonte da letra como por exemplo Arial, você pode optar por botar mais de uma para uma melhor compatibilidade entre plataformas em que seu site vá rodar.
+
+- font-weight: se trata do peso da fonte ou seja se ela é magra ou gorda em outras palavras.
+
+

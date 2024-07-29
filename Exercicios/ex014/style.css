@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: aquamarine;
+
+}
+.t{
+    font-family: "Oswald";
+    font-size: 3em;
+    
+}
+.ti{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 2em;
+}
+.marcar{
+    background-color: yellow;
+}

@@ -1,0 +1,39 @@
+LISTA
+
+-<ol>: Essa tag quer se referir a uma lista ordenada. 
+
+-<li>: Essa tag quer se referir a um item da lista. 
+
+OBS: Se você quer colocar mais de uma 'li' basta digitar o seguinte código "li* e o numero que você deseja repetir esse codigo"
+
+-<ul>: Essa tag quer se referir a uma lista não ordenada, sendo ela uma tag que não necessita de uma ordem.
+
+-<dl>: Essa tag quer se referir a uma lista de descrição, que serve para descrever algo.
+
+-<dt>: Essa tag quer se referir a um titulo da descrição.
+
+-<dd>: Essa tag quer se referir a descrição propriamente dita do <dt>
+
+TIPOS DE LISTA
+
+	Para se ter o estilo basta colocar ao lado da tag ol o "type" e uma adicional que é o "start" que seria basicamente para começar a contagem apartir daquela forma.
+
+.ol:
+
+-type="1": números.
+
+-type="a": letras minusculas.
+
+-type="A": letras maiúsculas.
+
+-type="i": números romanos em minúsculos.
+
+-type="I": números romanos em maiúsculo. 
+
+.ul:
+
+- disc: É um disco.
+
+- circle: É um circulo.
+
+- square: É um quadrado.

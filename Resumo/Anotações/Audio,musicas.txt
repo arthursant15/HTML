@@ -1,0 +1,3 @@
+== AUDIO, MUSICAS E PODCASTS
+
+-Para utilizar desse recurso basta você utilizar a tag <audio> e em seguida utilizar o parâmetro controls para mostrar o painel do audio

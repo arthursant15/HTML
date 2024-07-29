@@ -1,0 +1,17 @@
+==Responsividade 
+
+= Para fazer uma responsividade primeiro coloque no main que é o texto principal e em seguida coloque uma largura máxima com o max-width 1000px por exemplo e uma largura mínima como min-width 300px por exemplo e coloque no main margin auto.
+
+= Já no caso da foto se adaptar no texto basta colocar entre ela um Picture e em seguida um source mídia e em seguida troque o min width por max width para o máximo de largura que o usuário tem para mudar para uma imagem menor (a que você redimensionou no GIMP).
+
+== Para mudar um vídeo do youtube:
+
+= O que eu entendi:
+
+- Nós podemos usar o position absolute no iframe do youtube e no seu pai podemos usar o position relative de primeira quando você vê a div que você colocou entre eles "desapareceu" mas é só colocar padding bottom(uma margem interna, somente de baixo) de 50% ou o que se encaixar melhor no site, em seguida você pode manipular os elementos ajudantes, top, left, rigth, bottom.
+
+= O que o cara aleatório explicou =)
+
+-Nota: Perceba que o Guanabara configurou o filho da div (iframe) com a declaração "position: absolute" e o pai (a div) com a declaração "position: relative"... Dessa forma o elemento filho (iframe) é posicionado, com as propriedades auxiliares, em relação ao seu pai (div).
+
+  

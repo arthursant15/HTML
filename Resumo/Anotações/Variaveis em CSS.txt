@@ -1,0 +1,9 @@
+== Variáveis em CSS
+
+- Saiba que você pode usar em CSS um estilo de variável que guarda as informações que você quiser.
+
+- Para você fazer isso basta colocar o seguinte: ":root{ --cor1: #fffff}" por exemplo.
+
+- Depois fica muito mais fácil de manipular os elementos, caso queria alterar basta somente alterar no topo.
+
+- Para colocar depois basta colocar var(--o nome da variante--).

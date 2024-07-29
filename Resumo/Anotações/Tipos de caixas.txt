@@ -1,0 +1,55 @@
+==TIPOS DE CAIXAS
+
+- box-level: Este tipo de caixa ele quebra uma linha e em vez de começar na linha ele simplesmente quebra uma linha e começa e quando termina ele quebra outra linha e retorna a linha. OBS: ele quebra a linha porque ele precisa de um espaço inteiro.
+
+- box-inline: Este tipo de caixa ele simplesmente continua na linha em que estava sem a quebra-la, justamente como o nome diz "inline". OBS: ele não quebra linha porque ele se ajusta ao espaço que é necessário.
+
+==TAGS DOS TIPOS DE CAIXAS
+
+=Tags do tipo box-level:
+
+- <div>: se trata de uma tag do box-level em que se quebra a linha.
+
+- <h1>-<h6>: se trata de títulos.
+
+- <p>: se trata dos parágrafos.
+
+- <main>: se trata da parte principal da parte do texto
+
+- <header>: cabeçalho.
+
+- <nav>: para menus, links, navegação
+
+- <artcle>: artigo
+
+- <aside>: periférico ao artigo(nome do escritor/autor)
+
+-<footer>: se dá ao rodapé da pagina ou seja a parte de baixo.
+
+-<form>
+
+-<video>: está aqui porque ele é um conteúdo em que ele consome o espaço quebrando a linha.
+
+=Tags do tipo inline-level
+
+- <span>: se trata de uma tag do box-inline em que se continua na linha mostrando seu limite necessário.
+
+- <a>: se trata do link.
+
+- <code>: se trata da formatação em html de código.
+
+- <small>: se trata da formatação em letra pequena
+
+- <strong>: se trata da formatação em letra negrito
+
+- <em>: 
+
+- <sup>-<sub>: se trata em elevar a letra ou numero ou colocar em lado inferior como no exemplo de H20.
+
+- <label>: Serve como uma espécie de etiqueta e melhora na acessibilidade na hora de preencher o formulário.
+
+- <button>: serve para ser um botão ou de enviar ou etc
+
+- <input>: serve para diversas coisas como para digitar a data, números, email, etc.
+
+- <select>:serve para um seletor de algo, com a tag option sendo colocada depois.

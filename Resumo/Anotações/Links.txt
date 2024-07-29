@@ -1,0 +1,21 @@
+-Links Externos
+
+-<a>: Essa tag tem como função ancorar ou seja linkar sites tanto internos como externos.
+
+-<a target="_blank">: Essa tag tem como função caso você tenha um link externo seria recomendável você quando clicar no link se crie uma nova pagina, para assim a que você estava não ficar fechada/sobreposta pela o link externo.
+
+-<a target="_blank" rel="external">: A tag <rel=""> quer dizer para o algoritmo do teu site que o link é externo.    
+
+-Links Internos
+
+- Para se usar um link interno pasta você ter em sua pasta o arquivo html e colocar no hrel o seu html, assim fazendo uma conexão de arquivos, e você pode usar os mesmos sub-tags dos links externos a única diferença é que em vez de colocar o external no rel basta colocar como prev. 
+
+- Caso você pegar um site em que você não considera verídico e não quer que o algoritmo de busca se perpetue basta colocar no rel a expressão nofollow, que dará a ideia de não seguir.
+
+- Caso você for somente usar o seu site somente nele (sem abrir aba nova) basta colocar seu target como self , que significa sua pagina.
+ 
+-Links de pastas diferentes
+
+- Para você usar isso basta fazer normalmente a parte de linkar como as outras a única diferença é que você usara de uma maneira que o Linux usa pois, os servidores são feitos em Linux, e para voltar a pagina anterior usamos o '../' (aspas para mostra que é uma tag)
+
+ 

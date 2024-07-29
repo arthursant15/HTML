@@ -1,0 +1,6 @@
+Para se fazer um símbolo ou algo parecido basta simplesmente colocar o '&' no vscode e apertar o crt + espaço para completar com o que você quer ex:
+
+	-&uparrow
+
+Adicional: para colocar o emoji basta você ir em um site de emoji de sua preferencia colocar o emoji que você quer e em seguida colocar o seu código em html copiar quase todo e colocar no html "$#x" e em seguida o resto do código do emoji.
+ 

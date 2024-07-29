@@ -1,0 +1,5 @@
+== Pseudoclasses 
+
+-não como os outros como o id e class, ela serve para fazer uma configuração de estado em que o elemento em que você selecionou.
+
+-Ex: div:bolder- quer dizer que quando você passar o mouse por cima ela vai mudar de estado em que anteriormente se encontrava.

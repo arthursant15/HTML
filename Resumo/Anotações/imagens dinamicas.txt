@@ -1,0 +1,3 @@
+== IMAGENS DINAMICAS
+
+- Para utilizar o conceito de imagens dinâmicas basta primeiro você ter imagens que sejam de dimensões diferente uma das outras, em seguida você pode utilizar a tag Picture e dentro dela usar a tag img selecionar a imagem (maior ou a menor), em seguida colocar a tag source, media, type. Ela serve para avisar a troca de quando a janela aumenta ou diminui podendo colocar ou o maximo ou minimo de width que quer dizer largura, depois selecione a imagem e depois bote png no outro, NÃO SE ESQUEÇA DISSO IMAGEM/PNG.

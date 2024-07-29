@@ -1,0 +1,11 @@
+== Degradê 
+
+para usar degradê para cima coloque backgroud, imagem, linear-gradiente(to top,cor 1, cor 2)
+
+para baixo: backgrond, image, linear-gradiente(to bottom, cor 1 , cor 2)
+
+para direita basta colocar ritght e para esquerda left.
+
+- OBS:Ao você colocar em graus sendo 135deg que significa ser em 135° e para você tirar a lista do backgroond basta você colocar min-heigth:100vh.
+
+- OBS:Ao você colocar em "to top" ou "to bottom" basta definir um global para altura como 100% como ponto abre chaves e em seguida colocar heitght.

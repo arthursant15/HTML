@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #F2E3D5;
+    margin: auto;
+    padding: auto;    
+}
+header{
+    background: linear-gradient(to left, #f2e3d5a4, #F2C6A0, #F2BB77);
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    font-family: "Poppins", sans-serif; 
+}
+.introducao{
+    margin-inline: 200px;
+    color: #734230;
+    font-family: "Poppins",sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+main{
+    background-color: #f2c6a0bd;
+    margin: 30px;
+    text-align: justify;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619);
+}
+.nav_ul{
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+    padding-block: 15px;
+}
+
+.nav_a{
+    color: #734230;
+    text-decoration: none;
+}
+.nav_an{
+    text-decoration: none;
+    color: #734230;
+}
+.nav_ac{
+    color: #734230;
+    text-decoration: none;
+}
+.nav_acu{
+    color: #734230;
+    text-decoration: none;
+}
+.nav_acu{
+    color: #734230;
+}
+.nav_an:hover{
+    color: azure;
+    transition: 300ms;
+}
+.nav_ac:hover{
+    color: azure;
+    transition: 300ms;
+}
+.nav_a:hover{
+    color: azure;
+    transition: 300ms;
+}
+.nav_acu:hover{
+    color: azure;
+    transition: 300ms;
+}
+.span_news:hover{
+    color: azure;
+}
+.imag{
+    display: flex;
+    padding-top: 30px;
+}
+
+.span_imag{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.titulo{
+    text-align: center;
+    color: #734230;
+    margin-block: 50px;
+}
+h2{
+    color: #734230;
+    font-family: "Poppins", sans-serif;
+
+}
+.principal{
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+
+}
+.div_text2{
+    text-indent: 50px;
+}
+
+.img_2{
+    flex: 1;
+}
+.div_text{
+    display: flex;
+
+}
+.span_txt{
+    text-indent: 50px;
+    margin-left: 20px;
+}
+
+.div_reis{
+    display: flex;
+
+}
+.div_cruzeiro{
+    display: flex;
+}
+.div_cruzeiro_novo{
+    display: flex;
+}
+.div_cruzado{
+    display: flex;
+}
+.div_cruzado_novo{
+    display: flex;
+}
+.div_cruzeiro_real{
+    display: flex;
+}
+.div_saber_mais{
+    font-size: 1.25em;
+}
+.video{
+    padding: 20px;
+}
+footer{
+    display: flex;
+    background-color: #F2BB77;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-around;
+    color: #734230;
+}
+.div_footer{
+    display: block;    
+}
+.div_footer_imagem{
+    display: flex;
+    columns: 30px;
+    margin-top: 40px;
+}
+
