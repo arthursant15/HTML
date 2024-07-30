@@ -87,6 +87,21 @@ h2{
     color: #734230;
     font-family: "Poppins", sans-serif;
 }
+.vocesabia{
+    display: flex;
+    background-color: #F2BB77;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sabia_span{
+    display: contents;
+    text-align: right;
+    font-weight: bolder;
+    
+}
+.sabia_img{
+    border-radius: 20px;
+}
 footer{
     display: flex;
     background-color: #F2BB77;
