@@ -1,0 +1,3 @@
+== Alinhar as divs em linha 
+
+= Para alinhar as divs basta declarar ela como display = inline-block
