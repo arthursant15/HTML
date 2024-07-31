@@ -1,0 +1,9 @@
+== Propriedade image repeat
+
+= Se trata de uma propriedade que tem como função a repetição ou a não repetição da imagem 
+
+-no-reapet: serve justamente para não repetir a imagem de plano de fundo
+
+-reapet-y: vai repetir somente no eixo y
+
+-reapet-x: vai repetir somente no eixo x
