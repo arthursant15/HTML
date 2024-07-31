@@ -1,0 +1,3 @@
+== como centralizar uma div
+
+- Primeiro você criar uma section e uma div em seguida, no style da section você coloca ela como position relative, já na da div coloque como position absoluta, fazendo com que você possa mudar de posição ela com o left e top (sendo a distancia em relação com a parede da direção) depois coloque ambas para 50%, depois coloque transform: translate(-50%,-50%).

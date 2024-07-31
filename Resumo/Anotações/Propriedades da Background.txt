@@ -1,0 +1,18 @@
+=== Propriedade das Backgrounds
+
+== Background-size
+
+= auto: essa propriedade se mantem como padrão do navegador então não vai mudar nada nele, tendo a imagem toda mostrada levando em conta do seu tamanho.
+
+= contain: ele exibe 100% da imagem em que é atribuída essa propriedade causando barras pretas dependendo da imagem.
+
+= cover: ele mostra a imagem de forma bastante flexível e é extremamente indicado.
+
+
+== Background-position
+
+= Bottom, center, left, right, top: basicamente todas as direções incluindo o centro fazendo com que o plano de fundo fique exibido nele.
+
+
+
+== Background-attachment: significa vinculo, ele é usado para por um parâmetro mais famoso que é o de fixed que faz com que a imagem fique fixa independente da rolagem do site, e o scrool que já vem de padrão do navegador. 
