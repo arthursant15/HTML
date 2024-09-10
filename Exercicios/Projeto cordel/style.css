@@ -2,4 +2,8 @@
 
 body{
     font-family: "Poppins", sans-serif;
+} 
+header{
+    margin: auto;
+    text-align: center;
 }
