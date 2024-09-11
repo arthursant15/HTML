@@ -1,0 +1,9 @@
+== PROPRIEDADES NOVAS DO VITAS NO PROJETO CORDEL ==
+
+- TAGS: 
+
+. min-height: quer se referir a largura mínima da altura da view port ou seja o que você verá na tela, a propriedade usada é o "vh".
+
+. font-variant: essa tag significa variantes de fonte, que quer dizer para eles iniciarem com letra maiúscula quando começa uma palavra que não seja preposição ex: Casca de Bala.
+
+. line-height: quer se referir a altura da linha ou seja o espaçamento da linha do texto.

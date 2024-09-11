@@ -1,9 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
+    /*altura minima da view port */
+    min-height: 100vh;
     font-family: "Poppins", sans-serif;
 } 
 header{
-    margin: auto;
+    background-color: black;
+    color: white;
     text-align: center;
+}
+h1{
+    padding-top: 50px;
+    /* essa tag siginifica variantes de fonte que quer dizer para eles iniciarem com letra maiuscula quando se começa uma palavra ex: Casca de Bala*/
+    font-variant: small-caps;
+}
+header>p{
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-block: 10vh;
+    /*isso é a altura da linha*/
+    line-height: 2rem;
+}
+.normal{
+    background-color: blueviolet;
+}
+.imagem{
+    background-color: bisque;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
