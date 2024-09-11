@@ -1,0 +1,3 @@
+== PROPRIEDADE BORDER-COLLAPSE ==
+
+. Essa propriedade quando aplicada no <table> ela tem como função tirar o espaçamento que existe na tabela com o parâmetro collapse

@@ -1,0 +1,3 @@
+== TABELA NO HTML ==
+
+. Para fazer uma tabela no HTML basta colocar a tag <table> e dentro dela colocar <tr> fazendo assim uma linha da tabela, você pode associar a palavra table right com a tag tr que quer dizer tabela direita (na minha cabeça fica que a tabela vai criando a direita a cada tb adicionado dentro da tr), e dentro dela coloque a <td> que é as células que ficaram da esquerda para direita.
