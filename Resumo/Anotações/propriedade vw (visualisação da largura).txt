@@ -1,0 +1,3 @@
+== PROPRIEDADE VW ==
+
+. Essa propriedade tem como função em adaptar a fonte do site quando ele diminui a sua largura, ou seja, em telas menores como as do celular, modo de como aplicar: font-size: 10vw; <- isso significa que será mostrado 10 por cento da largura da view port (da largura da tela).

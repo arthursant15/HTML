@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
-body{
+body,html{
+    min-height: 100vh;
     margin: 0px;
     padding-top: 0px;
 }
@@ -38,6 +39,7 @@ h2{
 section>p{
     font-family: "Playwrite CU";
     padding-block: 20px;    
+    text-shadow: 3px 3px black;
 }
 section{
     padding-top: 30px;
@@ -80,4 +82,23 @@ section{
     background-attachment: fixed;
     background-size: cover;
     padding-bottom: 10px;
+}
+footer{
+    background-color: rgba(255, 228, 196, 0.833);
+    text-align: center;
+}
+footer>p{
+    margin-bottom: 0px;
+    padding-block: 10px;
+    font-variant: small-caps;
+    box-shadow: 0.5px 0.5px 9px rgba(0, 0, 0, 0.233);
+}
+footer>p>a{
+    text-decoration: none;
+    color: rgba(11, 11, 210, 0.945);
+}
+footer>p>a:hover{
+    color:rgb(235, 88, 35);
+    text-decoration: underline;
+    transition: 0.25s;
 }
