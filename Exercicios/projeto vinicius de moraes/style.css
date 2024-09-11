@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+body{
+    margin: 0px;
+    padding-top: 0px;
+}
+header{
+    text-align: center;
+    height: 100px;
+    font-variant: small-caps;
+    box-shadow: 0.5px 0.5px 9px rgba(0, 0, 0, 0.233);
+    background-color: rgba(255, 228, 196, 0.833);
+}
+header>p>a{
+    font-family: "Playwrite CU";
+    font-size: 12px;
+    color: rgb(235, 118, 35);
+    text-decoration: none;
+}
+header>p>a:hover{
+    color: black;
+    text-decoration: underline;
+    transition: 0.35s;
+}
+header>h1{
+    font-variant: small-caps;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 2.25rem;
+}
+h2{
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 2rem;
+}
+section>p{
+    font-family: "Playwrite CU";
+    padding-block: 20px;    
+}
+section{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.olhos{
+    background: url(https://as2.ftcdn.net/v2/jpg/07/70/62/81/1000_F_770628190_2L0yOwVvZx9Fmbhc7b68Sa5qlWSd8uxX.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+}
+ .olhos>p,.tomara>p,.eusei>p, .sonetodefidelidade>p, .flor>p{
+    background-color: rgba(0, 0, 0, 0.724);
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.tomara{
+    background: url(https://i0.wp.com/alemdoroteiro.com/wp-content/uploads/2017/11/500-dias-com-ela-capa.jpg?fit=1200%2C646&ssl=1);
+    background-size: contain;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+}
+.eusei{
+    background: url(https://disneyplusbrasil.com.br/wp-content/uploads/2023/03/A-Vida-de-Dug-O-Encontro-de-Carl.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+}
+.sonetodefidelidade{
+    background: url(https://i0.wp.com/www.legiaojovem.com.br/wp-content/uploads/2019/08/a-dama-e-o-vagabundo-destaque.jpg?fit=1920%2C1080&ssl=1);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+}
+.flor{
+    background: url(https://wallpaper.forfun.com/fetch/09/0932af6b95c367d1c8c7a631b60ad9b1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 10px;
+}

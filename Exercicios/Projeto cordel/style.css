@@ -34,16 +34,32 @@ section{
     padding-block: 10vh;
     /*isso é a altura da linha*/
     line-height: 2rem;
+    padding-left: 30px;
 }
-.normal{
-    background-color: blueviolet;
+.imagem1{
+    background: url(https://img.freepik.com/vetores-premium/ceu-ensolarado-da-pequena-igreja-rural-e-vetor-de-xilogravura-festa-junina-de-cactos-no-estilo-cordel-brasileiro_1051930-6.jpg?semt=ais_hybrid);
+    background-attachment:  fixed;
+    background-size: cover;
+    color: white;
 }
 .imagem{
-    background-color: bisque;
+    background: url(https://cdn.awsli.com.br/2500x2500/2267/2267874/produto/224996314/4-lehab21ywr.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.imagem>p{
+    background-color: rgba(0, 0, 0, 0.665);
+    color: white;
+    width: 300px;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+}
+section.imagem1>p{
+    color: white;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.655);
 }
