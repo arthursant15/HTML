@@ -1,0 +1,7 @@
+== MEDIA QUERIES == 
+
+. Para se utilizar deste recurso no css basta colocar '@media(){ (conteúdo da estilização) }' fazendo assim, um site responsivel adaptado para qualquer tipo de dispositivo ex um iphoneXR que tem uma largura de 414 px, ai quando fomos para o css basta configurar da seguinte forma -> @media(max width: 450px){}, isso quer dizer para o meu css que quando um dispositivo de largura máxima de 450 pixels estiver no site, ele terá que executar as configurações que estão presentes no bloco do @media, tornando assim, o site mais responsivo.
+
+- No caso da orientação landscape(horizontal)?
+
+. Nesse caso basta usar o mídia com o método landscape para assim, toda tela que 'deite' possa ser executado os comandos presente no bloco, sua sintaxe -> '@media (orentation: landscape)' 

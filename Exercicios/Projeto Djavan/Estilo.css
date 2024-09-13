@@ -1,0 +1,91 @@
+@charsetUTF-8;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    background-color: #e9e6dc;
+}
+header{
+    background-color: #ffff;
+    position: relative;
+}
+h1{
+    margin: auto;
+}
+header>h1>img{
+    width: 100px;
+    height: 75px;
+    display: flex;
+    position: absolute;
+    left: 75%;
+    top: 20%;
+}
+header>h1>p{
+    margin-top: 0px;
+    padding: 30px ;
+}
+header>h1>p>a{
+    color: #92815a;
+    text-decoration: none;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+header>h1>p>a:hover{
+    font-size: 1.05em;
+    transition: 0.2s;
+}
+h2{
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+section{
+    font-family:'poppins' ;
+    padding-left: 15vw;
+}
+.click{
+    font-size: 10px;
+}
+section>picture>a>img{
+    width: 85%;
+    height: auto;
+    transition: 1s;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #92815a;
+}
+section>picture>a>img:hover{
+    position: relative;
+    width: 90%;
+    height: auto;
+    transition: 1s;
+}
+footer{
+    background-color: #ffff;
+    text-align: center;
+}
+footer>p{
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+    font-family: 'poppins';
+    padding: 10px;
+}
+footer>p>a{
+    text-decoration: none;
+    color: black;
+    transition: 0.9s;
+}
+footer>p>a:hover{
+    color: #92815a;
+    transition: 0.9s;
+}
+.img_git{
+    position: relative;
+    top: 5px;
+    padding-right: 5px;
+}
+/*SmartPhone Config*/
