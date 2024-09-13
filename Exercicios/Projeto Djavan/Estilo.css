@@ -46,10 +46,10 @@ h2{
 }
 section{
     font-family:'poppins' ;
-    padding-left: 15vw;
+    padding-left: 10vw;
 }
 .click{
-    font-size: 10px;
+    font-size: 12px;
 }
 section>picture>a>img{
     width: 85%;
@@ -60,7 +60,7 @@ section>picture>a>img{
 }
 section>picture>a>img:hover{
     position: relative;
-    width: 90%;
+    width: 86%;
     height: auto;
     transition: 1s;
 }

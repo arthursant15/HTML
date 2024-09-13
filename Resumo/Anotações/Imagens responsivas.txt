@@ -1,0 +1,10 @@
+== IMAGENS RESPONSIVAS == 
+
+. Para ter imagens responsivas para o seu site basta colocar o seguinte no css: 
+
+section>picture>a>img {
+    width: 100%; /* A largura será 100% do contêiner */
+    height: auto; /* Mantém a proporção */
+}
+
+OBS: Isso faz com que se mostre 100% da largura e a altura seja ajustada automaticamente.
