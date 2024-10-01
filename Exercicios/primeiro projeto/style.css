@@ -4,6 +4,8 @@ body{
     background-color: #F2E3D5;
     margin: auto;
     padding: auto;    
+    padding: 0px;
+    margin: 0px;
 }
 header{
     background: linear-gradient(to left, #f2e3d5a4, #F2C6A0, #F2BB77);
