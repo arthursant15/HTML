@@ -11,6 +11,7 @@ body,html{
 header{
     background-color: #ffff;
     position: relative;
+    box-shadow: inset 0px 2px 4px #92815a98;
 }
 h1{
     margin: auto;
@@ -46,21 +47,21 @@ h2{
 }
 section{
     font-family:'poppins' ;
-    padding-left: 10vw;
+    padding-left: 15%;
 }
 .click{
     font-size: 12px;
 }
 section>picture>a>img{
-    width: 85%;
+    width: 80%;
     height: auto;
-    transition: 1s;
+    transition: 0.7s;
     border-radius: 5px;
     box-shadow: 1px 1px 7px #92815a;
 }
 section>picture>a>img:hover{
     position: relative;
-    width: 86%;
+    width: 85%;
     height: auto;
     transition: 1s;
 }
