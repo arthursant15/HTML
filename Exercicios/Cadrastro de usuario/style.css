@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("https://vivariomarrecife.com.br/wp-content/uploads/2021/08/designviva-12-1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    position: absolute;
+    top: 0%;
+}
+h1{
+    text-shadow: blue 1px 2px 1px;
+    color: white;
+    font-size: 3rem;
+}
+main{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding-top: 90px;
+    height: 83vh;
+}
+p{
+    color: white;
+    letter-spacing: 2px;
+    padding: 7px;
+    margin-left: -105px;
+}
+.senhaTxt{
+    margin-left: -15px;
+}
+.butao{
+    margin-top: 20px;
+}
+.sessao{
+    margin-left: -70px;
+}
