@@ -1,28 +1,39 @@
 *{
     margin: 0px;
     padding: 0px;
-}
 
+}
 body{
-    background: url("https://vivariomarrecife.com.br/wp-content/uploads/2021/08/designviva-12-1.png");
+    background: url("https://revistaurbanova.com.br/wp-content/uploads/2023/06/Opt-Oculos-SJC-Foto-2-scaled.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
+
 header{
     position: absolute;
     top: 0%;
+    margin-left: 50px;
 }
 h1{
     text-shadow: blue 1px 2px 1px;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-left: 25px;
+    margin-top: 40px;
+    letter-spacing: 0.4rem;
+}
+h2{
+    color: white;
+    letter-spacing: 0.2rem;
 }
 main{
-    width: 300px;
+    width: 400px;
     height: 200px;
     text-align: center;
+    padding-left: 0px;
     padding-top: 90px;
-    height: 83vh;
+    height: 100vh;
+    background-color: chocolate;
 }
 p{
     color: white;
@@ -38,4 +49,12 @@ p{
 }
 .sessao{
     margin-left: -70px;
+    margin-top: 70px;
+}
+.imagem{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 1000px;
+    margin-left: 0px;
 }
