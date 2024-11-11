@@ -85,3 +85,14 @@ p{
     background-color: chocolate;
     border-bottom: 1px black solid;
 }
+main>div>a{
+    text-decoration: none;
+}
+.fale:hover{
+    color: black;
+    transition: 10ms;
+}
+.fale{
+    font-size: 1rem;
+    font-variant: small-caps;
+}
