@@ -46,10 +46,23 @@ p{
 }
 .butao{
     margin-top: 20px;
+    width: 170px;
+    height: 30px;
+    background-color: rgb(245, 200, 141);
+    border: none;
+    border-radius: 5px;
+    transition: 110ms;
+
+}
+.butao:hover{
+    background-color: chocolate;
+    color: aliceblue;
+    border: 1px black solid;
+    transition: 100ms;
 }
 .sessao{
-    margin-left: -70px;
-    margin-top: 70px;
+    margin-left: -30px;
+    margin-top: 130px;
 }
 .imagem{
     position: absolute;
@@ -57,4 +70,18 @@ p{
     top: 0px;
     width: 1000px;
     margin-left: 0px;
+}
+#Usuario_text{
+    border: none;
+    background-color: chocolate;
+    border-bottom: 1px black solid;
+}
+#Usuario_text::selection{
+    background-color: rgba(0, 0, 0, 0.361);
+    color: aliceblue;
+}
+#Senha_txt{
+    border: none;
+    background-color: chocolate;
+    border-bottom: 1px black solid;
 }
