@@ -33,7 +33,7 @@ main{
     padding-left: 0px;
     padding-top: 90px;
     height: 100vh;
-    background-color: chocolate;
+    background-color: rgb(247, 143, 70);
 }
 p{
     color: white;
@@ -73,16 +73,13 @@ p{
 }
 #Usuario_text{
     border: none;
-    background-color: chocolate;
+    background-color: rgb(247, 143, 70);
     border-bottom: 1px black solid;
 }
-#Usuario_text::selection{
-    background-color: rgba(0, 0, 0, 0.361);
-    color: aliceblue;
-}
+
 #Senha_txt{
     border: none;
-    background-color: chocolate;
+    background-color: rgb(247, 143, 70);
     border-bottom: 1px black solid;
 }
 main>div>a{
@@ -95,4 +92,6 @@ main>div>a{
 .fale{
     font-size: 1rem;
     font-variant: small-caps;
+    width: 10%;
+    margin: auto;
 }
