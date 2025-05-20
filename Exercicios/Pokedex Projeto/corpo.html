@@ -5,7 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
 </head>
+<!--LINKS-->
+<link rel="icon" href="./icon/favicon-16x16.png">
+<link rel="stylesheet" href="./Css/style.css">
+
+<!--MAIN JS-->
+<script defer src="./js/script.js"></script> <!--A tag defer significa que o arquivo html irá adiar o arquivo java script para primeiro analisar o arquivo html, já que em seu significado em ingles defer quer dizer adiar.-->
 <body>
-    
+
+    <main>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/100.png" alt="pokemon" class="pokemon_image">
+        
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name">Loading...</span>
+        </h1>
+
+        <form class="form">
+            <input type="search" 
+            class="input__search" 
+            placeholder="Name or Number" 
+            required > <!--Essa tag required quer dizer pro usuario que nao sera possivel prosseguir a diante sem antes preencher o input a cima, ou seja, não permite deixa-lo vazio.-->
+
+        </form>
+        
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next > </button>
+        </div>
+
+        <img src="imagem/pokedex.png" alt="pokédex" class="pokedex">
+    </main>
 </body>
 </html>

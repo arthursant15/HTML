@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #041b52;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 280px;
+    background-color: #002f6c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 2px 0 10px rgba(5, 80, 194, 0.651);
+  }
+  
+  .library-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .library-header h3 {
+    font-size: 1rem;
+  }
+  
+  .add-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .add-btn:hover {
+    background-color: white;
+    color: #002f6c;
+  }
+  
+  h4 {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #b0c4de;
+  }
+  
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 12px;
+  }
+  
+  .album {
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .album img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  }
+  
+  .album:hover {
+    transform: scale(1.05);
+  }
+  
+  .album p {
+    margin-top: 5px;
+    font-size: 0.7rem;
+    color: #dcdcdc;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow-y: auto;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    background-color: #fdfdfd96;
+    color: white;
+    width: 40%;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    background-color: #2a3d63;
+  }
+  
+  .icon {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+  }
+  
+  .listas, .estilos {
+    background-color: #004c99;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  .lista-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+    background-color: #c0c0c0;
+  }
+  
+  .box img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      flex-direction: row;
+      overflow-x: auto;
+      padding: 10px;
+      border-radius: 0;
+    }
+  
+    .main-content {
+      padding: 10px;
+    }
+  
+    .album-grid {
+      grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    }
+  }

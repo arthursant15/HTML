@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Listufy</title>
+  <link rel="stylesheet" href="estilo.css" />   
+</head>
+<body>
+  <div class="container">
+    <!-- Menu lateral -->
+    <aside class="sidebar">
+      <div class="library-header">
+        <h3>Sua Biblioteca</h3>
+        <button class="add-btn">+</button>
+      </div>
+
+      <h4>Para Você</h4>
+      <div class="album-grid">
+        <div class="album">
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/97/The_Weeknd_-_After_Hours.png" alt="After Hours" />
+          <p>After Hours</p>
+        </div>
+        <div class="album">
+          <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Olivia_Rodrigo_-_SOUR.png" alt="SOUR" />
+          <p>SOUR</p>
+        </div>
+        <div class="album">
+          <img src="https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png" alt="1989" />
+          <p>1989</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+      <header class="top-bar">
+        <img class="icon" src="https://img.icons8.com/ios-filled/50/ffffff/home.png" alt="Home" />
+        <input type="search" class="search-bar" placeholder="Buscar músicas..." />
+        <img class="icon" src="https://img.icons8.com/ios-filled/50/ffffff/settings.png" alt="Config" />
+        <img class="icon" src="https://img.icons8.com/ios-filled/50/ffffff/user.png" alt="User" />
+      </header>
+
+      <section class="listas">
+        <h2>Suas Listas</h2>
+        <div class="lista-boxes">
+          <div class="box"><img src="https://img.icons8.com/ios-filled/50/000000/playlist.png" alt="Playlist" /></div>
+          <div class="box"><img src="https://img.icons8.com/ios-filled/50/000000/rock-music.png" alt="Rock" /></div>
+          <div class="box"><img src="https://img.icons8.com/ios-filled/50/000000/heart.png" alt="Favoritos" /></div>
+        </div>
+      </section>
+
+      <section class="estilos">
+        <h2>Estilos Favoritos</h2>
+        <div class="lista-boxes">
+          <div class="box"><img src="https://img.icons8.com/ios-filled/50/000000/pop-music.png" alt="Pop" /></div>
+          <div class="box"><img src="https://img.icons8.com/ios-filled/50/000000/jazz.png" alt="Jazz" /></div>
+          <div class="box"><img src="https://img.icons8.com/ios-filled/50/000000/disco.png" alt="Disco" /></div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>
