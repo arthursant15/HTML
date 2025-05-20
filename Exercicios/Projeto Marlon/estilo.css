@@ -111,7 +111,6 @@
     font-size: 1rem;
     background-color: #fdfdfd96;
     color: white;
-    width: 40%;
   }
   
   .search-bar:focus {
@@ -180,4 +179,17 @@
     .album-grid {
       grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
     }
+        
   }
+    .bnt_lupa{
+    border-radius: 10px;
+    padding: 4px;
+    border: 4px 6px 0 black;
+    background-color: #002f6c;
+}
+.btn_lupa:active {
+    background-color: #001a3c; /* tom mais escuro para efeito de clique */
+  }
+.bnt_lupa:host{
+    background-color: #002f6c;
+}
