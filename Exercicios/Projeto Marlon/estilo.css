@@ -103,7 +103,7 @@
     gap: 15px;
   }
   
-  .search-bar {
+  .searchInput {
     flex: 1;
     padding: 10px;
     border-radius: 12px;
@@ -113,7 +113,7 @@
     color: white;
   }
   
-  .search-bar:focus {
+  .searchInput:focus {
     outline: none;
     background-color: #2a3d63;
   }

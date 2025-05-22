@@ -1,47 +1,81 @@
-const playlist = [];
+const clientId = 'SUA_CLIENT_ID'; // Substitua pelo seu Client ID
+const redirectUri = 'http://localhost:5500';
+let accessToken = null;
+let userId = null;
+let currentPlaylistId = null;
 
-function searchMusic() {
-  const query = document.getElementById("searchInput").value;
-  fetch(`https://api.deezer.com/search?q=${query}&output=jsonp&limit=5`, {
-    method: "GET",
-    mode: "no-cors"
+// Ao abrir a página, checa o token
+window.onload = () => {
+  const hash = window.location.hash;
+  if (hash) {
+    const params = new URLSearchParams(hash.substring(1));
+    accessToken = params.get("access_token");
+    document.getElementById("app").style.display = "block";
+    getUserId();
+  }
+};
+
+function login() {
+  const scopes = 'playlist-modify-public playlist-modify-private';
+  window.location.href =
+    `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${redirectUri}&scope=${scopes}`;
+}
+
+function getUserId() {
+  fetch("https://api.spotify.com/v1/me", {
+    headers: { Authorization: "Bearer " + accessToken },
   })
-  .then(response => {
-    const script = document.createElement("script");
-    script.src = `https://api.deezer.com/search?q=${query}&output=jsonp&limit=5&callback=showResults`;
-    document.body.appendChild(script);
-  });
+    .then(res => res.json())
+    .then(data => {
+      userId = data.id;
+    });
 }
 
-function showResults(data) {
-  const resultsDiv = document.getElementById("results");
-  resultsDiv.innerHTML = "";
-
-  data.data.forEach(track => {
-    const trackDiv = document.createElement("div");
-    trackDiv.innerHTML = `
-      <strong>${track.title}</strong> - ${track.artist.name}<br>
-      <button onclick='addToPlaylist(${JSON.stringify(track)})'>Adicionar</button>
-      <audio controls src="${track.preview}"></audio>
-    `;
-    resultsDiv.appendChild(trackDiv);
-  });
+function createPlaylist() {
+  const name = document.getElementById("playlistName").value;
+  fetch(`https://api.spotify.com/v1/users/${userId}/playlists`, {
+    method: "POST",
+    headers: {
+      Authorization: "Bearer " + accessToken,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ name, public: false })
+  })
+    .then(res => res.json())
+    .then(data => {
+      alert("Playlist criada!");
+      currentPlaylistId = data.id;
+    });
 }
 
-function addToPlaylist(track) {
-  playlist.push(track);
-  updatePlaylist();
+function searchTracks() {
+  const query = document.getElementById("trackSearch").value;
+  fetch(`https://api.spotify.com/v1/search?q=${encodeURIComponent(query)}&type=track`, {
+    headers: { Authorization: "Bearer " + accessToken }
+  })
+    .then(res => res.json())
+    .then(data => {
+      const results = document.getElementById("results");
+      results.innerHTML = '';
+      data.tracks.items.forEach(track => {
+        const li = document.createElement('li');
+        li.innerHTML = `${track.name} - ${track.artists[0].name} <button onclick="addToPlaylist('${track.uri}')">Adicionar</button>`;
+        results.appendChild(li);
+      });
+    });
 }
 
-function updatePlaylist() {
-  const playlistUl = document.getElementById("playlist");
-  playlistUl.innerHTML = "";
-  playlist.forEach(track => {
-    const li = document.createElement("li");
-    li.innerHTML = `
-      ${track.title} - ${track.artist.name}
-      <audio controls src="${track.preview}"></audio>
-    `;
-    playlistUl.appendChild(li);
-  });
+function addToPlaylist(trackUri) {
+  if (!currentPlaylistId) {
+    return alert("Crie uma playlist primeiro!");
+  }
+
+  fetch(`https://api.spotify.com/v1/playlists/${currentPlaylistId}/tracks`, {
+    method: "POST",
+    headers: {
+      Authorization: "Bearer " + accessToken,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ uris: [trackUri] })
+  }).then(() => alert("Música adicionada à playlist!"));
 }

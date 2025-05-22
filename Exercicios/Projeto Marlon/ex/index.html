@@ -2,20 +2,24 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Playlist Simples</title>
-  <link rel="stylesheet" href="estilo.css">
+  <title>Spotify Playlist Creator</title>
 </head>
 <body>
-  <h1>Minha Playlist</h1>
+  <h1>Crie Sua Playlist do Spotify</h1>
 
-  <input type="text" id="searchInput" placeholder="Buscar música...">
-  <button onclick="searchMusic()">Buscar</button>
+  <button onclick="login()">Login com Spotify</button>
 
-  <div id="results"></div>
+  <div id="app" style="display:none;">
+    <input type="text" id="playlistName" placeholder="Nome da playlist">
+    <button onclick="createPlaylist()">Criar Playlist</button>
 
-  <h2>Minha Playlist</h2>
-  <ul id="playlist"></ul>
+    <br><br>
+    <input type="text" id="trackSearch" placeholder="Buscar música">
+    <button onclick="searchTracks()">Buscar</button>
 
-  <script src="code.js"></script>
+    <ul id="results"></ul>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
