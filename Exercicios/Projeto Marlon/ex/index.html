@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Spotify Playlist Creator</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerenciador de Playlists - Spotify</title>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Crie Sua Playlist do Spotify</h1>
+<body class="bg-gray-900 text-white p-4">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-4">🎵 Spotify Playlist Creator</h1>
+<input id="searchInput" type="text" placeholder="Buscar músicas..."
+  class="w-full p-2 text-black rounded" />
+<button onclick="searchTracks()" class="mt-2 bg-blue-500 px-4 py-2 rounded hover:bg-blue-600">
+  Buscar
+</button>
 
-  <button onclick="login()">Login com Spotify</button>
+    <button id="loginBtn" class="bg-green-500 px-4 py-2 rounded hover:bg-green-600">Login com Spotify</button>
 
-  <div id="app" style="display:none;">
-    <input type="text" id="playlistName" placeholder="Nome da playlist">
-    <button onclick="createPlaylist()">Criar Playlist</button>
+    <div id="app" class="hidden mt-6">
+      <input id="searchInput" type="text" placeholder="Buscar músicas..."
+        class="w-full p-2 text-black rounded" />
+      <button onclick="searchTracks()" class="mt-2 bg-blue-500 px-4 py-2 rounded hover:bg-blue-600">
+        Buscar
+      </button>
 
-    <br><br>
-    <input type="text" id="trackSearch" placeholder="Buscar música">
-    <button onclick="searchTracks()">Buscar</button>
+      <div id="results" class="mt-4"></div>
 
-    <ul id="results"></ul>
+      <h2 class="text-xl font-semibold mt-6">Criar Playlist</h2>
+      <input id="playlistName" type="text" placeholder="Nome da Playlist" class="w-full p-2 text-black rounded" />
+      <button onclick="createPlaylist()" class="mt-2 bg-purple-500 px-4 py-2 rounded hover:bg-purple-600">
+        Criar Playlist
+      </button>
+
+      <div id="playlists" class="mt-6"></div>
+    </div>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
